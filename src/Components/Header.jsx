@@ -6,7 +6,7 @@ function Header() {
     <>
     <div className='w-full h-10 bg-[#ffebe9] pl-4 pt-2'>
     <Marquee>
-     Header
+     <p className='text-[#8e160b]'>Header</p>
     </Marquee>
     </div>
     </>

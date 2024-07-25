@@ -43,7 +43,7 @@ const Navbar = () => {
               ref={homeRef}
               className="text-[#8e160b] hover:text-black"
             >
-              <MdHome size={26} />
+              <MdHome size={27} />
             </a>
             <a
               href="#"
