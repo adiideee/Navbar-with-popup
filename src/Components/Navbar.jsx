@@ -24,6 +24,7 @@ const Navbar = () => {
         transform: 'translateY(0)',
         width: '500px', 
         textAlign: 'center', 
+        boxShadow: '2px 2px 20px 2px rgba(142,22,11,0.1)'
       },
     });
   };
@@ -32,7 +33,7 @@ const Navbar = () => {
     <>
       <nav className="bg-white p-4 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-[#8e160b] text-2xl font-bold">Some logo</div>
+          <div className="text-[#8e160b] text-2xl font-bold"><a href='#'>Some logo</a></div>
           <div className="flex mx-auto justify-between items-center space-x-16">
             <a
               href="#"
