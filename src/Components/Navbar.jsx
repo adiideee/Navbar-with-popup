@@ -32,9 +32,8 @@ const Navbar = () => {
   return (
     <>
       <nav className="bg-white p-4 shadow-md">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="text-[#8e160b] text-2xl font-bold"><a href='#'>Some logo</a></div>
-          <div className="flex mx-auto justify-between items-center space-x-16">
+        <div className="container mx-auto">
+          <div className="flex mx-auto space-x-16">
             <a
               href="#"
               onClick={(e) => {
@@ -82,7 +81,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <ToastContainer />
+      <ToastContainer/>
     </>
   );
 };

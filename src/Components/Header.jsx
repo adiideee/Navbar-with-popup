@@ -1,13 +1,10 @@
 import React from 'react'
-import Marquee from "react-fast-marquee";
 
 function Header() {
   return (
     <>
-    <div className='w-full h-10 bg-[#ffebe9] pl-4 pt-2'>
-    <Marquee>
-     <p className='text-[#8e160b]'>Header</p>
-    </Marquee>
+    <div className='w-full h-20 bg-[#ffebe9] pl-4 pt-2'> 
+    <div className="text-[#8e160b] text-2xl font-bold py-4"><a href='#'>Some logo</a></div>
     </div>
     </>
   )
